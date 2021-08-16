@@ -1,0 +1,36 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 18%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 1.17vw;
+}
+
+.text2 {
+  color: grey;
+  font-size: 1.10vw;
+}
+
+.contact {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 1.17vw;
+}
+
+.profile-text {
+  text-decoration: none;
+  font-size: 2.60vw;
+  color: black;
+}
+
