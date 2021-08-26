@@ -76,3 +76,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+#INSTALLING GRPC 
+1. Put php_grpc.dll in xampp/php/ext
+2. Copy and paste it in php.ini 
+         extension=php_grpc.dll
+3. composer require "grpc/grpc:^1.38"
+4. composer require google/cloud-firestore
