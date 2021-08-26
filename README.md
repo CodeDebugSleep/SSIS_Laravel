@@ -21,6 +21,27 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## INSTALLING GRPC 
+1. Check your php version and download php_grpc.dll based on it.
+```bash
+https://pecl.php.net/package/gRPC/1.39.0/windows
+```
+2. Unzip file, copy php_grpc.dll and paste it in xampp/php/ext
+3. Copy and paste it in php.ini 
+```bash
+extension=php_grpc.dll
+```     
+         
+4. Add grpc as composer dependency
+```bash
+composer require "grpc/grpc:^1.38"
+```
+
+5. Add google firestore as composer dependency
+```bash
+composer require google/cloud-firestore
+```
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
@@ -77,9 +98,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-#INSTALLING GRPC 
-1. Put php_grpc.dll in xampp/php/ext
-2. Copy and paste it in php.ini 
-         extension=php_grpc.dll
-3. composer require "grpc/grpc:^1.38"
-4. composer require google/cloud-firestore
+
